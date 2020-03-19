@@ -1,24 +1,3 @@
-# README
+# stripe legacy-checkout
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Now, navigate to http://localhost:3000/charges/new to see the payment form ready to use. If you’re using test API keys, you can try the process with some dummy data. Enter the special credit card number 4242 4242 4242 4242, a three-digit CVC, and any expiry date in the future. Submitting the form should bring up the successful charge page, and you can see the charge in the Dashboard.
